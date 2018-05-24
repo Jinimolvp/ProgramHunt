@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+</head>
+<body>
+<h1>To sort numbers</h1>
+</body>
+<script type="text/javascript">
+	//var _ = require("lodash");
+	let randArray = [];
+	let newArr = [];
+	while(randArray.length <10) {
+		var randomnumber = Math.floor(Math.random()*100) + 1;
+		console.log(randomnumber);
+	    if(randArray.indexOf(randomnumber) > -1) continue;
+	    randArray[randArray.length] = randomnumber;
+	}
+	document.write("Random Array-" +randArray);
+	document.write("<br>");
+	newArr.push(randArray);
+	document.write(" Ascending Array-" +_.sortBy(randArray));
+	document.write("<br>");
+	document.write("Descending Array-" +_.sortBy(randArray).reverse());
+    document.write("<br>");
+    
+	
+</script>
+</html>

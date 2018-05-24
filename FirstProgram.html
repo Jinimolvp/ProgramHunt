@@ -4,6 +4,24 @@
 	<title>Welcome</title>
 </head>
 <body>
-<h1>Welcome</h1>
+<h1>Multiples of 5</h1>
 </body>
+<script type="text/javascript">
+	var mulArray = [...Array(51).keys()];
+	mulArray.map((id,index)=>{
+		if(id%5 == 0 && id != 0) {
+			
+			document.write(id + " Is multiple of 5");
+			document.write("<br>");
+		}
+	})
+	/* Second Method*/
+	/*for(var i=0;i<=50;i++) {
+		if(i%5 == 0 && i != 0) {
+			
+			document.write(i + " Is multiple of 5");
+			document.write("<br>");
+		}
+	}*/
+</script>
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "programhunt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ThirdProgram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinimolvp/ProgramHunt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jinimolvp/ProgramHunt/issues"
+  },
+  "homepage": "https://github.com/Jinimolvp/ProgramHunt#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
+}
